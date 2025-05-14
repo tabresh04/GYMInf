@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Platform</title>
     <link rel="stylesheet" href="./style.css">
@@ -16,7 +16,6 @@
             <a class="hover" href="#contact">CONTACT</a>
             <div class="navleft">
                 <a class="hover orglogin"><button class="loginbutton">LOGIN</button></a>
-                <button class="profile"></button> 
             </div>           
         </div>
         <center>
@@ -55,32 +54,23 @@
         <center><p class="effect">Welcome To Gym.</p></center>
     </div>
 
-    <div class="scroll1">
-    <div id="scroll">
-        <img class="circle" src="./images/img1.jpg">
-        <img class="circle" src="./images/img3.jpg">
-        <img class="circle" src="./images/img4.jpg">
-        <img class="circle" src="./images/img5.jpg">
-        <img class="circle" src="./images/img6.jpg">
-        <img class="circle" src="./images/img7.jpg">
+<div class="image-scroller">
+    <div class="scroller-track">
+        <img class="circle" src="./images/img1.jpg" alt="Gym image 1">
+        <img class="circle" src="./images/img3.jpg" alt="Gym image 2">
+        <img class="circle" src="./images/img4.jpg" alt="Gym image 3">
+        <img class="circle" src="./images/img5.jpg" alt="Gym image 4">
+        <img class="circle" src="./images/img6.jpg" alt="Gym image 5">
+        <img class="circle" src="./images/img7.jpg" alt="Gym image 6">
+        <!-- Duplicate images for seamless looping -->
+        <img class="circle" src="./images/img1.jpg" alt="Gym image 1">
+        <img class="circle" src="./images/img3.jpg" alt="Gym image 2">
+        <img class="circle" src="./images/img4.jpg" alt="Gym image 3">
+        <img class="circle" src="./images/img5.jpg" alt="Gym image 4">
+        <img class="circle" src="./images/img6.jpg" alt="Gym image 5">
+        <img class="circle" src="./images/img7.jpg" alt="Gym image 6">
     </div>
-    <div id="scroll">
-        <img class="circle" src="./images/img4.jpg">
-        <img class="circle" src="./images/img5.jpg">
-        <img class="circle" src="./images/img6.jpg">
-        <img class="circle" src="./images/img7.jpg">
-        <img class="circle" src="./images/img1.jpg">
-        <img class="circle" src="./images/img3.jpg">
-    </div>
-    <div id="scroll">
-        <img class="circle" src="./images/img1.jpg">
-        <img class="circle" src="./images/img3.jpg">
-        <img class="circle" src="./images/img4.jpg">
-        <img class="circle" src="./images/img5.jpg">
-        <img class="circle" src="./images/img6.jpg">
-        <img class="circle" src="./images/img7.jpg">
-    </div>
-    </div>
+</div>
 
     <content>
     <div class="box3">
@@ -217,16 +207,19 @@
             <div class="boxx">
                 <div class="dabba">
                     <ul>
-                        <li>Protein: To preserve muscle mass (e.g., lean chicken, Greek yogurt).</li>
+                        <h3>Protein:</h3>
+                        <li>To preserve muscle mass (e.g., lean chicken, Greek yogurt).</li>
                     </ul>
                 </div>
                 <div class="dabba">
                     <ul>
-                        <li>Carbohydrates: Quick energy (e.g., fruits, oatmeal).</li>
+                        <h3>Carbohydrates:</h3>
+                        <li>Quick energy (e.g., fruits, oatmeal).</li>
                     </ul>
                 </div>
                 <div class="dabba">
                     <ul>
+                        <h3>Fats:</h3>
                         <li>Timing: Eat 30 minutes to 2 hours before the workout.</li>
                         <li>Banana with peanut butter.</li>
                         <li>Oatmeal with berries and a scoop of protein powder.</li>
@@ -237,16 +230,19 @@
             <div class="boxx">
                 <div class="dabba">
                     <ul>
-                        <li>Protein: To repair and rebuild muscles (e.g., whey protein, eggs).</li>
+                        <h3>Protein:</h3>
+                        <li>To repair and rebuild muscles (e.g., whey protein, eggs).</li>
                     </ul>
                 </div>
                 <div class="dabba">
                     <ul>
-                        <li>Carbohydrates: To replenish glycogen stores (e.g., rice, potatoes).</li>
+                        <h3>Carbohydrates:</h3>
+                        <li>To replenish glycogen stores (e.g., rice, potatoes).</li>
                     </ul>
                 </div>
                 <div class="dabba">
                     <ul>
+                        <h3>Fats:</h3>
                         <li>Timing: Eat within 30-60 minutes post-exercise.</li>
                         <li>Grilled chicken with quinoa and vegetables.</li>
                         <li>Protein shake with a banana.</li>
@@ -257,12 +253,14 @@
     </div>
     </content>
     
-    <footer id="contact">
+    <!-- Contact page -->
+     <div>
+      <footer id="contact">
        <center>
        <h2>Contact Us</h2>
-       <a>Contact No: 000000</a>
+       <a>Contact No: +91 000000</a>
        <br>
-       <a>E-mail: gymplatform.ac.in</a>
+       <a>E-mail: tabresh786shaikh@gmail.com</a>
        <div>
         <h4>Follow us on</h4>
         <a href="https://instagram.com"><img src="./images/inslogo2.jpeg" class="flogo"></a>
@@ -270,8 +268,12 @@
         <a href="https://twitter.com"><img src="./images/twilogo.png" class="flogo"></a>
         <a href="https://youtube.com"><img src="./images/youlogo2.png" class="flogo"></a>
        </div>
+       <div>
+        <h4>Created by Shaikh Tabresh</h4>
+       </div>
        </center>
-    </footer>
+      </footer>
+     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
